@@ -1,0 +1,4 @@
+"County or Parish"|"NY105"|"Sullivan"|637800|"12435"|"325551"
+"MLRA"|"140"|"Glaciated Allegheny Plateau and Catskill Mountains"|637800|"12435"|"325552"
+"National Park System Land"|"UPDE"|"Upper Delaware Scenic and Recreational River"||"12435"|"325553"
+"State or Territory"|"NY"|"New York"|637800|"12435"|"325554"
