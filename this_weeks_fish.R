@@ -1,11 +1,9 @@
 looking at mermaids garden supply chain 
 
-
 specimens=read.csv("/Users/lucypullen/Desktop/Folder/fish/specimens.csv")
 names(specimens)
 dim(specimens)
 
-#select fish with which statement
 redfish=specimens[which(specimens$sname=="Sebastes fasciatus"),] 					
 johndory=specimens[which(specimens$sname=="Zeus faber"),]							
 mussels=specimens[which(specimens$sname=="Mollusca mytilidae"),]					
@@ -27,7 +25,6 @@ oysters=specimens[which(specimens$sname=="Pinctada"),]
 stripedbass=specimens[which(specimens$sname=="Morone saxatillis"),]
 whiteshrimp=specimens[which(specimens$sname=="Litopenaeus setiferus"),]
 
-#check dimensions 
 dim(redfish)
 dim(johndory)
 dim(mussels)
@@ -49,10 +46,7 @@ dim(goldentilefish)
 dim(oysters)
 dim(stripedbass)
 dim(whiteshrimp)
-
-#(catch in MG supply chain)
  redfish, john dory, mussels, summer flounder, porgy, squid, atlantic pollock, yellow fintuna, swordfish, monkfish, mahi mahi, haddock, clams, scallops, bluefish, alba coretuna, golden tilefish, oysters, striped bass, white shrimp,
-
 
 atlanticpollock[1,2,]
 #[1] 495147
